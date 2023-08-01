@@ -1,0 +1,119 @@
+/* css media query goes here */
+@media (min-width:320px) and (max-width:480px){
+    /* css start */
+      .header .navbar .navbar-nav .nav-item .nav-link{
+        margin: 0px;
+      
+
+    }
+    .header .navbar .navbar-nav .nav-item .nav-link:hover{
+        background: url("../images/line.png") left bottom  no-repeat;
+        background-size: auto;
+    
+    }
+    .header .navbar .navbar-nav .nav-item .nav-link:focus{
+        background: url("../images/line.png")  left bottom  no-repeat;
+        background-size: auto;
+    }
+    .header .navbar .navbar-nav .nav-item .active{
+        background: url("../images/line.png") left bottom  no-repeat;
+        background-size: auto;     
+    }
+    .banner {
+        
+        padding: 50px 0px;
+    }
+    .banner h4{
+        font-size: 16px;
+    }
+    .banner h1{
+        font-size: 27px;
+        line-height: 1.2em;
+    }
+    .banner p{
+        font-size: 13px;
+    }
+    .banner .double-button {
+        padding: 20px 0px 0px;
+    }
+    .banner .double-button .btn-primary{
+        padding: 10px 13px;
+        font-size: 13px;
+        margin: 0px 10px 0px 0px
+}
+.banner .double-button .btn-light{
+    padding: 10px 13px;
+    font-size: 13px;}
+}
+        /* css end */
+
+
+@media (min-width:481px) and (max-width:767px){
+     /* css start */
+     .header .navbar .navbar-nav .nav-item .nav-link{
+        margin: 0px;
+      
+
+    }
+    .header .navbar .navbar-nav .nav-item .nav-link:hover{
+        background: url("../images/line.png") left bottom  no-repeat;
+        background-size: auto;
+    
+    }
+    .header .navbar .navbar-nav .nav-item .nav-link:focus{
+        background: url("../images/line.png")  left bottom  no-repeat;
+        background-size: auto;
+    }
+    .header .navbar .navbar-nav .nav-item .active{
+        background: url("../images/line.png") left bottom  no-repeat;
+        background-size: auto;     
+    }
+    .banner {
+        
+        padding: 50px 0px;
+    }
+    .banner h4{
+        font-size: 18px;
+    }
+    .banner h1{
+        font-size: 30px;
+        line-height: 1.2em;
+    }
+    .banner p{
+        font-size: 14px;
+    }
+    .banner .double-button {
+        padding: 20px 0px 0px;
+    }
+    .banner .double-button .btn-primary{
+        padding: 10px 13px;
+        font-size: 14px;
+        margin: 0px 10px 0px 0px
+}
+.banner .double-button .btn-light{
+    padding: 10px 13px;
+    font-size: 14px;}
+}
+   /* css end */
+
+
+
+@media (min-width:768px) and (max-width:1024px){
+     /* css start */
+     .banner {
+        
+        padding: 60px 0px;
+    }
+    .banner h4{
+        font-size: 18px;
+    }
+    .banner h1{
+        font-size: 33px;
+        line-height: 1.2em;
+    }
+    .banner p{
+        font-size: 14px;}
+    }
+    .eye-catcher .double-button {
+        padding: 11px 0px;
+    }
